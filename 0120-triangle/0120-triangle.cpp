@@ -2,7 +2,7 @@ class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
         int n = triangle.size();
-        vector<vector<int>>dp(n,vector<int>(n,-1));
+        //vector<vector<int>>dp(n,vector<int>(n,-1));
         vector<int>front(n,0);
         vector<int>curr(n,0);
 
